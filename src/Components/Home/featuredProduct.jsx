@@ -25,7 +25,7 @@ const FeaturedProduct = () => {
         <div className="w-full flex justify-center py-8">
             <div className="flex flex-col items-center py-10 container">
                 <h1 className="font-bold text-2xl md:text-4xl mb-14" >Featured Products</h1>
-                <div className='flex flex-wrap justify-center gap-8 mb-10'>
+                <div className='flex flex-wrap justify-center gap-2 md:gap-8 mb-10'>
                     {
                         products.map((product) => {
                             if (product.featured) {
