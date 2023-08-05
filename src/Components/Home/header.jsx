@@ -6,7 +6,7 @@ const Header = () => {
                 <div className="flex flex-col items-center md:items-start gap-5">
                     <h1 className='font-oxygen font-bold text-4xl text-center md:text-start md:text-5xl px-10 text-white xl:w-[70vh]'>Xbox Wireless Headset Limited Edition</h1>
                     <p className='text-white px-10 text-center md:mb-10'>Embark on an epic journey</p>
-                    <button className='w-40 bg-white md:ml-10 h-14 font-bold relative text-xl text-purple-900 rounded-lg'>Buy Now </button>
+                    <a href='/product/headphones/3' className='w-40 bg-white md:ml-10 h-14 font-bold relative text-xl text-purple-900 rounded-lg flex justify-center items-center'>Buy Now</a>
                 </div>
                 <div>
                     <img className=" w-[30vh] md:w-[50vh] object-cover filter drop-shadow-2xl mt-5 md:mt-0" src="images/headphones_03.png" alt="" />

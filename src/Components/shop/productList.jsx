@@ -35,11 +35,12 @@ const ProductsList = () => {
             <div className="grid grid-cols-2 xl:grid-cols-3 gap-5">
                 {
                     currentItems.map((product) => {
-                        return (<Link to={`/product/${product.category}/${product.id}`} className=" bg-gradient-to-t from-zinc-300 relative  w-[200px] md:w-[280px] flex flex-col justify-between items-center gap-1 p-5 rounded-2xl transform hover:-translate-y-4 duration-300 cursor-pointer">
-                            <img className='w-[80%] mb-4 p-5' src={product.image} alt="" />
+                        return (
+                        <Link to={`/product/${product.category}/${product.id}`} className=" bg-gradient-to-t from-zinc-300 relative  w-[180px] md:w-[280px] flex flex-col justify-between items-center gap-1 p-5 rounded-2xl transform hover:-translate-y-4 duration-300 cursor-pointer">
+                            <img className='mb-4 p-5' src={product.image} alt="" />
                             <div className='w-full'>
-                                <p className='w-full md:font-semibold opacity-50'>{product.category}</p>
-                                <h1 className='w-full font-medium md:font-semibold text-lg md:text-xl'>{product.title}</h1>
+                                <p className='w-full text-sm md:text-md md:font-semibold opacity-50'>{product.category}</p>
+                                <h1 className='w-full font-medium md:font-semibold text-md md:text-xl'>{product.title}</h1>
                                 <p className='w-full font-semibold text-zinc-600'>{product.price} $</p>
                             </div>
                         </Link>)

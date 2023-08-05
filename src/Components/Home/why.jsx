@@ -21,7 +21,7 @@ const Why = () => {
                 </div>
                 <img className="lg:absolute lg:top-1/2 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 object-cover lg:mt-0 mt-14 self-center" src="images/earbuds_01.png" alt="" width={350} />
             </div>
-            <button className='h-12 md:h-16 bg-zinc-600 text-white w-44 md:w-52 rounded-lg text-lg md:text-2xl mt-5'>Shop Now</button>
+            <a href='/store' className='h-12 md:h-16 bg-zinc-600 text-white w-44 md:w-52 rounded-lg text-lg md:text-2xl mt-5 flex justify-center items-center'>Shop Now</a>
         </div>
     )
 }

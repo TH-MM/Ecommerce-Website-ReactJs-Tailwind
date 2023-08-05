@@ -25,7 +25,7 @@ const Experience  = () => {
                         <p className="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo fugit inventore sunt facere reprehenderit. Aliquam?</p>
                     </div>
                 </div>
-                <button className='h-12 md:h-16 bg-zinc-600 text-white w-44 md:w-52 rounded-lg text-lg md:text-2xl mt-5'>See All Products</button>
+                <a href='/store' className='h-12 md:h-16 bg-zinc-600 text-white w-44 md:w-52 rounded-lg text-lg md:text-2xl mt-5 flex justify-center items-center'>Shop Now</a>
             </div>
         </div>
     )
