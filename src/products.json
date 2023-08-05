@@ -1,0 +1,93 @@
+{
+    "data" : 
+    [
+        {
+            "id" : 1 ,
+            "title" : "Earbuds X5486",
+            "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magnam ratione animi nihil inventore, cumque consequuntur asperiores quidem soluta, quod aut debitis libero? Voluptatem, eius!",
+            "category" : "earbuds",
+            "price" : 205.30,
+            "totalPrice" : 205.30,
+            "quantity" : 1,
+            "image" : "images/earbuds_01.png",
+            "featured" : true
+        },
+        {
+            "id" : 2 ,
+            "title" : "Earbuds Y5876",
+            "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magnam ratione animi nihil inventore, cumque consequuntur asperiores quidem soluta, quod aut debitis libero? Voluptatem, eius!",
+            "category" : "earbuds",
+            "price" : 205.30,
+            "totalPrice" : 205.30,
+            "quantity" : 1,
+            "image" : "images/earbuds_05.png",
+            "featured" : false
+        },
+        {
+            "id" : 3 ,
+            "title" : "Headphone X9612",
+            "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magnam ratione animi nihil inventore, cumque consequuntur asperiores quidem soluta, quod aut debitis libero? Voluptatem, eius!",
+            "category" : "headphones",
+            "price" : 205.30,
+            "totalPrice" : 205.30,
+            "quantity" : 1,
+            "image" : "images/headphones_03.png",
+            "featured" : true
+        },
+        {
+            "id" : 4 ,
+            "title" : "Headphone Y9692",
+            "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magnam ratione animi nihil inventore, cumque consequuntur asperiores quidem soluta, quod aut debitis libero? Voluptatem, eius!",
+            "category" : "headphones",
+            "price" : 205.30,
+            "totalPrice" : 205.30,
+            "quantity" : 1,
+            "image" : "images/headphones_02.png",
+            "featured" : false
+        },
+        {
+            "id" : 5 ,
+            "title" : "Speaker Y9692",
+            "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magnam ratione animi nihil inventore, cumque consequuntur asperiores quidem soluta, quod aut debitis libero? Voluptatem, eius!",
+            "category" : "speakers",
+            "price" : 205.30,
+            "totalPrice" : 205.30,
+            "quantity" : 1,
+            "image" : "images/speaker_01.png",
+            "featured" : true
+        },
+        {
+            "id" : 6 ,
+            "title" : "Speaker Y9692",
+            "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magnam ratione animi nihil inventore, cumque consequuntur asperiores quidem soluta, quod aut debitis libero? Voluptatem, eius!",
+            "category" : "speakers",
+            "price" : 205.30,
+            "totalPrice" : 205.30,
+            "quantity" : 1,
+            "image" : "images/speaker_03.png",
+            "featured" : false
+        },
+        {
+            "id" : 7 ,
+            "title" : "Powerbank Y9692",
+            "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magnam ratione animi nihil inventore, cumque consequuntur asperiores quidem soluta, quod aut debitis libero? Voluptatem, eius!",
+            "category" : "Powerbanks",
+            "price" : 205.30,
+            "totalPrice" : 205.30,
+            "quantity" : 1,
+            "image" : "images/powerbank_04.png",
+            "featured" : true
+        },
+        {
+            "id" : 8 ,
+            "title" : "Powerbank Y9692",
+            "description" : "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore magnam ratione animi nihil inventore, cumque consequuntur asperiores quidem soluta, quod aut debitis libero? Voluptatem, eius!",
+            "category" : "Powerbanks",
+            "price" : 205.30,
+            "totalPrice" : 205.30,
+            "quantity" : 1,
+            "image" : "images/powerbank_02.png",
+            "featured" : false
+        }
+    ]
+}
