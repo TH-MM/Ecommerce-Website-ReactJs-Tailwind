@@ -1,4 +1,3 @@
-import speaker from '../../images/headphones 05.png'
 
 const Header = () => {
     return (

@@ -9,8 +9,8 @@ const FeaturedProduct = () => {
 
         const fetchData = async () => {
             try {
-                const response = await axios.get('https://mocki.io/v1/c2dd7c68-2a6f-4e08-806f-e5cf2b954796'); // Replace this URL with your API endpoint
-                setData(response.data.data); // Update the state with the fetched data
+                const response = await axios.get('https://mocki.io/v1/c2dd7c68-2a6f-4e08-806f-e5cf2b954796'); 
+                setData(response.data.data); 
             } catch (error) {
                 console.error('Error fetching data:', error);
             }
@@ -20,7 +20,6 @@ const FeaturedProduct = () => {
 
     }, [])
 
-    console.log(products)
 
     return (
         <div className="w-full flex justify-center py-8">
@@ -43,38 +42,6 @@ const FeaturedProduct = () => {
                             }
                         })
                     }
-                    {/* <article className=" bg-gradient-to-t from-purple-200 w-[32vh] flex flex-col justify-between items-center gap-1 p-5 rounded-2xl">
-                        <img className='w-[90%] mb-4 p-5' src={earbuds} alt="" />
-                        <div className='w-full'>
-                            <p className='w-full font-semibold opacity-50'>Category</p>
-                            <h1 className='w-full font-semibold text-xl'>Earbud X15482</h1>
-                            <p className='w-full font-semibold text-purple-900'>20.50 $</p>
-                        </div>
-                    </article>
-                    <article className="bg-gradient-to-t from-purple-200 w-[32vh] flex flex-col justify-between items-center gap-1 p-5 rounded-2xl">
-                        <img className='w-[90%] mb-4 p-5' src={headphone} alt="" />
-                        <div className='w-full'>
-                            <p className='w-full font-semibold opacity-50'>Category</p>
-                            <h1 className='w-full font-semibold text-xl'>Earbud X15482</h1>
-                            <p className='w-full font-semibold text-purple-900'>20.50 $</p>
-                        </div>
-                    </article>
-                    <article className="bg-gradient-to-t from-purple-200 w-[32vh] flex flex-col justify-between items-center gap-1 p-5 rounded-2xl">
-                        <img className='w-[90%] mb-4 p-5' src={speaker} alt="" />
-                        <div className='w-full'>
-                            <p className='w-full font-semibold opacity-50'>Category</p>
-                            <h1 className='w-full font-semibold text-xl'>Earbud X15482</h1>
-                            <p className='w-full font-semibold text-purple-900'>20.50 $</p>
-                        </div>
-                    </article>
-                    <article className="bg-gradient-to-t from-purple-200 w-[32vh] flex flex-col justify-between items-center gap-1 p-5 rounded-2xl">
-                        <img className='w-[90%] mb-4 p-5' src={powerbank} alt="" />
-                        <div className='w-full'>
-                            <p className='w-full font-semibold opacity-50'>Category</p>
-                            <h1 className='w-full font-semibold text-xl'>Earbud X15482</h1>
-                            <p className='w-full font-semibold text-purple-900'>20.50 $</p>
-                        </div>
-                    </article> */}
                 </div>
                 <button className='h-12 md:h-16 bg-zinc-600 text-white w-44 md:w-52 rounded-lg text-lg md:text-2xl mt-5'>See All Products</button>
             </div>
